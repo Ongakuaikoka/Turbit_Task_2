@@ -15,14 +15,14 @@ What It Does
 Quick Start
 
 1. Clone the Repo
-  git clone https://github.com/Ongakuaikoka/Turbit_Task_2.git
-  cd Turbit_Task_2
+  `git clone https://github.com/Ongakuaikoka/Turbit_Task_2.git`
+  `cd Turbit_Task_2`
 
 2. Start the services
-  docker-compose up --build
+  `docker-compose up --build`
 
 3. Load Data into MongoDB
-   docker-compose exec fastapi_app python load_csv.py
+   `docker-compose exec fastapi_app python load_csv.py`
 
 **API Endpoint**
 GET /turbine-data
